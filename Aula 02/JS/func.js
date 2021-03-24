@@ -4,16 +4,16 @@ var resultado = primeiroValor / segundoValor
 
 var operacao = prompt("Digite / caso queira dividir, * para multiplicar, + para somar e - para subtrair: ")
 
-if (operacao == 1) {
+if (operacao == "/") {
  var resultado = primeiroValor / segundoValor
  document.write("<h2>" + primeiroValor + " / " + segundoValor + " = " + resultado + "</h2>")
-} else if (operacao == 2){
+} else if (operacao == "*"){
  var resultado = primeiroValor * segundoValor
  document.write("<h2>" + primeiroValor + " x " + segundoValor + " = " + resultado + "</h2>")
-} else if (operacao == 3){
+} else if (operacao == "+"){
    var resultado = primeiroValor + segundoValor
  document.write("<h2>" + primeiroValor + " + " + segundoValor + " = " + resultado + "</h2>")
-} else if(operacao == 4){
+} else if(operacao == "-"){
    var resultado = primeiroValor - segundoValor
  document.write("<h2>" + primeiroValor + " - " + segundoValor + " = " + resultado + "</h2>")
 } else {
