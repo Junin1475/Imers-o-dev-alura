@@ -1,16 +1,16 @@
 body {
     font-family: 'Roboto Mono',monospace;
-    min-height: 600px;
+    text-align:center;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png');
     background-color: #000000;
     background-size: cover;
-    background-position: center bottom;
+    background-position: center top;
     background-repeat: no-repeat;
   }
   
   .container {
     text-align: center;
     padding: 20px;
-    height: 100vh;
   }
   
   .page-title {
@@ -34,8 +34,7 @@ body {
     right:10px;
   }
   
-  @media (max-height: 500px) {
-    body {
-      min-height:800px;
-    }
+  body > img {
+    margin: 0 10px;
   }
+  
